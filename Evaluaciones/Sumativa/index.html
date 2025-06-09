@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Raíces Digitales - Talleres Comunitarios</title>
-  <<link rel="stylesheet" href="css/styles.css">
-
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
   <header>
@@ -14,7 +13,7 @@
   </header>
 
   <section class="hero">
-    <img src="assets/arte-urbano.jpg" alt="Arte urbano comunitario">
+    <img src="asset/arte.jpg" alt="Arte urbano comunitario" />
   </section>
 
   <section class="talleres">
@@ -40,5 +39,22 @@
 
   <section class="contacto">
     <h2>Contáctanos</h2>
-    <form>
-      <label for="n
+    <form action="#" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required /><br />
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required /><br />
+
+      <label for="mensaje">Mensaje:</label><br />
+      <textarea id="mensaje" name="mensaje" rows="5" cols="30" required></textarea><br />
+
+      <input type="submit" value="Enviar" />
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Raíces Digitales. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
