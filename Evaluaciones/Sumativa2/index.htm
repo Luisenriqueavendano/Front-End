@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raíces Digitales - Talleres Abiertos</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Talleres Abiertos de Raíces Digitales</h1>
+        <p>¡Arte para todos!</p>
+    </header>
+
+    <section class="presentacion">
+        <img src="assets/arte.jpg" alt="Arte Urbano" />
+    </section>
+
+    <section class="talleres">
+    <h2>Descubre nuestros talleres</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Teatro Comunitario</h3>
+        <p>Explora tu expresión escénica con dinámicas colaborativas.</p>
+        <span>Horario: Lunes y Miércoles - 18:00 a 20:00</span>
+      </div>
+      <div class="card">
+        <h3>Danza Urbana</h3>
+        <p>Conecta cuerpo y ritmo con movimientos contemporáneos.</p>
+        <span>Horario: Martes y Jueves - 17:00 a 19:00</span>
+      </div>
+      <div class="card">
+        <h3>Música Callejera</h3>
+        <p>Aprende técnicas de freestyle, beats y cultura sonora.</p>
+        <span>Horario: Sábados - 15:00 a 18:00</span>
+      </div>
+    </div>
+  </section>
+
+    <section class="contacto">
+        <h2>Formulario de Registro</h2>
+        <form id="registroForm">
+            <label for="nombres">Nombres:</label>
+            <input type="text" id="nombres" name="nombres" required>
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" required>
+
+            <label for="rut">RUT (12345678-9):</label>
+            <input type="text" id="rut" name="rut" required>
+
+            <label for="fechaNacimiento">Fecha de Nacimiento (dd/mm/aaaa):</label>
+            <input type="text" id="fechaNacimiento" name="fechaNacimiento" required>
+
+            <label for="tallerInteres">Taller de Interés:</label>
+            <select id="tallerInteres" name="tallerInteres" required>
+                <option value="">Seleccione un taller</option>
+                <option value="teatro">Teatro Comunitario</option>
+                <option value="danza">Danza Urbana</option>
+                <option value="musica">Música Urbana</option>
+            </select>
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="observaciones">Observaciones:</label>
+            <textarea id="observaciones" name="observaciones"></textarea>
+
+            <button type="submit">Registrar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Síguenos en nuestras redes sociales: Facebook | Instagram | Twitter</p>
+        <p>Contacto: info@raicesdigitales.cl</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
